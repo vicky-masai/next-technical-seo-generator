@@ -1,0 +1,22 @@
+.grid{
+    width: 60%;
+    height: auto;
+}
+
+
+
+.grid h2{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.grid>div{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .grid{
+        width: 90%;
+        margin: auto;
+    }
+}
